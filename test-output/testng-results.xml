@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="181147" started-at="2020-04-08T06:10:45Z" finished-at="2020-04-08T06:13:47Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="181147" started-at="2020-04-08T06:10:45Z" finished-at="2020-04-08T06:13:47Z">
+      <class name="TechChallenge.userStory5">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:TechChallenge.userStory5@5442a311]" name="startReport" is-config="true" duration-ms="1170" started-at="2020-04-08T14:13:10Z" finished-at="2020-04-08T14:13:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="dispenseTax()[pri:0, instance:TechChallenge.userStory5@5442a311]" name="dispenseTax" duration-ms="35303" started-at="2020-04-08T14:13:11Z" finished-at="2020-04-08T14:13:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dispenseTax -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TechChallenge.userStory5@5442a311]" name="tearDown" is-config="true" duration-ms="425" started-at="2020-04-08T14:13:46Z" finished-at="2020-04-08T14:13:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TechChallenge.userStory5 -->
+      <class name="TechChallenge.userStory1">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TechChallenge.userStory1@42e26948]" name="setUp" is-config="true" duration-ms="855" started-at="2020-04-08T14:10:45Z" finished-at="2020-04-08T14:10:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="singleRecordEntryWithAPI()[pri:0, instance:TechChallenge.userStory1@42e26948]" name="singleRecordEntryWithAPI" duration-ms="40727" started-at="2020-04-08T14:10:46Z" finished-at="2020-04-08T14:11:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singleRecordEntryWithAPI -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TechChallenge.userStory1@42e26948]" name="getResult" is-config="true" duration-ms="1" started-at="2020-04-08T14:11:27Z" finished-at="2020-04-08T14:11:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=singleRecordEntryWithAPI status=SUCCESS method=userStory1.singleRecordEntryWithAPI()[pri:0, instance:TechChallenge.userStory1@42e26948] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TechChallenge.userStory1@42e26948]" name="tearDown" is-config="true" duration-ms="1176" started-at="2020-04-08T14:11:27Z" finished-at="2020-04-08T14:11:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TechChallenge.userStory1 -->
+      <class name="TechChallenge.userStory2">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TechChallenge.userStory2@57baeedf]" name="setUp" is-config="true" duration-ms="639" started-at="2020-04-08T14:11:28Z" finished-at="2020-04-08T14:11:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="multipleRecordEntryAPI()[pri:0, instance:TechChallenge.userStory2@57baeedf]" name="multipleRecordEntryAPI" duration-ms="48808" started-at="2020-04-08T14:11:29Z" finished-at="2020-04-08T14:12:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multipleRecordEntryAPI -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TechChallenge.userStory2@57baeedf]" name="getResult" is-config="true" duration-ms="0" started-at="2020-04-08T14:12:18Z" finished-at="2020-04-08T14:12:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=multipleRecordEntryAPI status=SUCCESS method=userStory2.multipleRecordEntryAPI()[pri:0, instance:TechChallenge.userStory2@57baeedf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TechChallenge.userStory2@57baeedf]" name="tearDown" is-config="true" duration-ms="255" started-at="2020-04-08T14:12:18Z" finished-at="2020-04-08T14:12:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TechChallenge.userStory2 -->
+      <class name="TechChallenge.userStory3">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TechChallenge.userStory3@343f4d3d]" name="setUp" is-config="true" duration-ms="85" started-at="2020-04-08T14:12:18Z" finished-at="2020-04-08T14:12:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="uploadCsvFile()[pri:0, instance:TechChallenge.userStory3@343f4d3d]" name="uploadCsvFile" duration-ms="30885" started-at="2020-04-08T14:12:18Z" finished-at="2020-04-08T14:12:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadCsvFile -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TechChallenge.userStory3@343f4d3d]" name="getResult" is-config="true" duration-ms="2" started-at="2020-04-08T14:12:49Z" finished-at="2020-04-08T14:12:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=uploadCsvFile status=SUCCESS method=userStory3.uploadCsvFile()[pri:0, instance:TechChallenge.userStory3@343f4d3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TechChallenge.userStory3@343f4d3d]" name="tearDown" is-config="true" duration-ms="205" started-at="2020-04-08T14:12:49Z" finished-at="2020-04-08T14:12:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TechChallenge.userStory3 -->
+      <class name="TechChallenge.userStory4">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TechChallenge.userStory4@53b32d7]" name="setUp" is-config="true" duration-ms="97" started-at="2020-04-08T14:12:49Z" finished-at="2020-04-08T14:12:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getResponseValidation()[pri:0, instance:TechChallenge.userStory4@53b32d7]" name="getResponseValidation" duration-ms="20077" started-at="2020-04-08T14:12:49Z" finished-at="2020-04-08T14:13:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseValidation -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TechChallenge.userStory4@53b32d7]" name="getResult" is-config="true" duration-ms="0" started-at="2020-04-08T14:13:09Z" finished-at="2020-04-08T14:13:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getResponseValidation status=SUCCESS method=userStory4.getResponseValidation()[pri:0, instance:TechChallenge.userStory4@53b32d7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TechChallenge.userStory4@53b32d7]" name="tearDown" is-config="true" duration-ms="289" started-at="2020-04-08T14:13:09Z" finished-at="2020-04-08T14:13:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TechChallenge.userStory4 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
